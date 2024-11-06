@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "mcq_api",
+    "script": "./app.js",
+    "watch": true,
+    "time": false,
+    "env": {
+      "NODE_ENV": "development",
+      "PG_HOST": "localhost",
+      "PG_USER_NAME": "postgres",
+      "PG_PASSWORD": "admin@123"
+    },
+    "instances":  1,
+    "exec_mode": "cluster_mode"
+  }]
+}

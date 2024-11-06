@@ -1,0 +1,30 @@
+{
+  "name": "mcq api",
+  "version": "1.0.0",
+  "description": "mcq api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshata Kharade",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "bluebird": "^3.7.2",
+    "crypto-js": "^4.2.0",
+    "event-stream": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.45",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.5",
+    "pg-pool": "^3.6.2",
+    "restify": "^11.1.0",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-plugins": "^1.6.0",
+    "unirest": "^0.6.0",
+    "utf8": "^3.0.0"
+  }
+}
