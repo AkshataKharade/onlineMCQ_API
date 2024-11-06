@@ -12,7 +12,7 @@ let _self = module.exports = {
         }
 
         if(wherevalue == undefined){
-            wherevalue = [];
+             wherevalue = [];
         }
         console.log(dbname,query,wherevalue);
         return promise.using(dbsettings.getconnection(dbname),function(tranx){
